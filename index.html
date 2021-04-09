@@ -95,6 +95,17 @@
   <img src="펭수.jpg" width="400" height="170">
   </div>
 
+    <input align="right" id="nightday" type="button" value="채환아" onclick="
+    if(document.querySelector('#nightday').value=== '채환아'){
+    document.querySelector('body').style.backgroundColor = 'pink';
+    document.querySelector('h2').style.color = 'white';
+    document.querySelector('#nightday').value = '사랑해♡';
+    }
+    else{
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('#grid').style.color = '#D6A2FF';
+    document.querySelector('#nightday').value = '채환아';
+    }">
 
 </body>
 
